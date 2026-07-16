@@ -47,4 +47,27 @@ console.log(x);
 console.log(10 + 5 * 2);
 // The answer prediction is 20 cuz we can use bodmas rule so in bodmas we use mutipilaction first then  addition 
 
-// Predict the output first, then run the code.
+
+// Question 7
+// Find the output of the following expression.
+
+console.log((10 + 5) * 2);
+// The answer is 30 cuz fist solve bracket and then multiplication.
+
+
+// Bonus Question
+// Create two variables.
+
+let num1 = 25;
+let num2 = 5;
+console.log(num1 + num2);
+// answer 30
+console.log(num1 - num2);
+// answer 20
+console.log(num1 * num2);
+// answer 125
+console.log(num1 / num2);
+// answer 5
+console.log(num1 % num2);
+// answer 0
+
