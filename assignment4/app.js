@@ -70,4 +70,3 @@ console.log(num1 / num2);
 // answer 5
 console.log(num1 % num2);
 // answer 0
-
