@@ -39,3 +39,12 @@ console.log(x++);
 // prediction is x=5
 console.log(x);
 // prediction is x=6
+
+
+// Question 6
+// Find the output of the following expression.
+
+console.log(10 + 5 * 2);
+// The answer prediction is 20 cuz we can use bodmas rule so in bodmas we use mutipilaction first then  addition 
+
+// Predict the output first, then run the code.
