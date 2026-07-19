@@ -51,3 +51,11 @@ let welcome = "Welcome to "
 console.log(greeting + name1 + "!");
 console.log(welcome + city3 + ", " + country2);
 
+// Question 8
+// Create the following variables.
+
+let firstName1 = "Areeb";
+let lastName2 = "Ali";
+let course = "MERN Stack"
+console.log("hello " + firstName1 + "!" );
+console.log("Welcome to the "+ course + "course." );
