@@ -58,4 +58,4 @@ let firstName1 = "Areeb";
 let lastName2 = "Ali";
 let course = "MERN Stack"
 console.log("hello " + firstName1 + "!" );
-console.log("Welcome to the "+ course + " course." ); 
+console.log("Welcome to the "+ course + " course." );
