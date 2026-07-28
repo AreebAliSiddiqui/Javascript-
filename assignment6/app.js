@@ -83,3 +83,11 @@ let userMarks = prompt("Enter your marks")
 if (userMarks > 60 ){
     alert("You are passed the exam")
 }
+
+// Question 9
+
+let name = prompt("Enter your name")
+let language = prompt("Enter your fav programming language")
+console.log("hello"+" "+ name +"!");
+console.log("Your fav programming language is " + language +".");
+
