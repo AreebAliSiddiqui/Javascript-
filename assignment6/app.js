@@ -62,3 +62,24 @@ console.log("Hello" +" "+ firstName1 +" "+ lastName1 );
 
 // Question 7
 // Use prompt().
+
+let userName = prompt("Enter your Name please")
+let userCity = prompt("Enter your city")
+console.log("Hello" +" "+ userName);
+console.log("Welcome to" +" "+ userCity );
+
+
+// Question 8
+// Use prompt() and if statement.
+
+let userAge = prompt("Enter your age")
+if (userAge >= 18) {
+alert("You are eligible to vote")    
+}
+
+// self made question 
+
+let userMarks = prompt("Enter your marks")
+if (userMarks > 60 ){
+    alert("You are passed the exam")
+}
