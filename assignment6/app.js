@@ -90,4 +90,3 @@ let name = prompt("Enter your name")
 let language = prompt("Enter your fav programming language")
 console.log("hello"+" "+ name +"!");
 console.log("Your fav programming language is " + language +".");
- 
