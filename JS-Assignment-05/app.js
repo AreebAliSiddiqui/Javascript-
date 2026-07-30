@@ -98,4 +98,4 @@ if (Age1 >= 18){
     console.log("sorry "+ name +"!");
     console.log("you are not eligible");
    
-}
+} 
