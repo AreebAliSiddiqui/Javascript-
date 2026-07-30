@@ -83,3 +83,19 @@ if (userAge >= 18){
     
 }
 
+// Question 9
+
+let name = prompt("Enter name")
+let Age1 = prompt("Enter age")
+let city =prompt("Enter city")
+if (Age1 >= 18){
+    console.log("Welcome "+ name +"!" );
+    console.log("you are eligible");
+    console.log("city: "+ city);
+    
+    
+}else{
+    console.log("sorry "+ name +"!");
+    console.log("you are not eligible");
+   
+}
