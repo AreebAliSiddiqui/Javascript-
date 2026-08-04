@@ -15,4 +15,4 @@ console.log(cars[2]);
 
 console.log(cars);
 
-console.log(cars[5]);
+console.log(cars[5]); 
