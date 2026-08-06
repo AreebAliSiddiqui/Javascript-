@@ -21,3 +21,11 @@
 
 
 // Unshift method
+// let subjects =["maths","computer","science","bio","chemistry","phys"]
+// console.log(subjects);
+// subjects.unshift("urdu","english")
+// console.log(subjects);
+
+
+// splice method
+let 
