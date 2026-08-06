@@ -43,3 +43,12 @@
 // animals.splice(2,3);
 // console.log(animals);
 
+
+
+// slice method
+let veg =["potato","tomato","onion","chilli","ginger","ladyfinger"]
+console.log(veg);
+
+let newVeg =veg.slice(2,6)
+console.log(newVeg);
+
