@@ -28,4 +28,8 @@
 
 
 // splice method
-let 
+let animals =["lion","tiger","cat","dog","fox","bear"]
+console.log(animals);
+animals.splice(1,1,"panda","kangaro")
+console.log(animals);
+
