@@ -28,8 +28,18 @@
 
 
 // splice method
-let animals =["lion","tiger","cat","dog","fox","bear"]
-console.log(animals);
-animals.splice(1,1,"panda","kangaro")
-console.log(animals);
+// let animals =["lion","tiger","cat","dog","fox","bear"]
+// console.log(animals);
+// animals.splice(1,1,"panda","kangaro")
+// console.log(animals);
+
+// let animals =["lion","tiger","cat","dog","fox","bear"]
+// console.log(animals);
+// animals.splice(3,0,"panda")
+// console.log(animals);
+
+// let animals =["lion","tiger","cat","dog","fox","bear"]
+// console.log(animals);
+// animals.splice(2,3);
+// console.log(animals);
 
