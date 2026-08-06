@@ -14,3 +14,10 @@
 
 
 // shift method
+// let students =["areeb","ali","noman","fazal","sidra","eman"]
+// console.log(students);
+// students.shift();
+// console.log(students);
+
+
+// Unshift method
