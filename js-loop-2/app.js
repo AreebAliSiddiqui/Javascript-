@@ -1,15 +1,15 @@
 // 1) Create this array:
 
-let students = ["Ali ", "Hassan", "Usman", "Bilal"];
-for (let i = 0; i < students.length; i++){
-    if(students[i] === "Usman"){
-        console.log("usman is found");
+// let students = ["Ali ", "Hassan", "Usman", "Bilal"];
+// for (let i = 0; i < students.length; i++){
+//     if(students[i] === "Usman"){
+//         console.log("usman is found");
         
-    }else{
-        console.log("usman not found");
+//     }else{
+//         console.log("usman not found");
         
-    }
-}
+//     }
+// }
 
 // 2) Create this array:
 
@@ -66,6 +66,21 @@ for (let i = 10; i >= 1; i--){
 for(let i = 3; i <= 5; i++ ){
     for (let j = 1; j <= 3; j++){
         console.log(i,j);
+        
+    }
+}
+
+
+
+// 7) Create these two arrays:
+
+let students = ["Naeem", "Hassan", "Ahmed"];
+
+let subjects = ["HTML", "CSS", "JavaScript"];
+
+for (i = 0; i < students.length; i++){
+    for (let j = 0; j < subjects.length; j++){
+        console.log(students[i] + "-" + subjects[j]);
         
     }
 }
