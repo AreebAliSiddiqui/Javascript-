@@ -19,3 +19,4 @@ console.log(country.length);
 console.log(country.slice(0,4));
 console.log(country);
 
+ 
