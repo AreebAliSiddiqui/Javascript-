@@ -20,4 +20,3 @@ console.log(country.slice(0,4));
 console.log(country);
 
 
-
