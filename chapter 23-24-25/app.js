@@ -46,3 +46,4 @@ console.log(newSentence);
 let car ="Mehran khyber"
 console.log(car.indexOf("e"));
 console.log(car.lastIndexOf("e"));
+ 
