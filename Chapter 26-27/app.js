@@ -3,4 +3,4 @@
 // And print the rounded number in the console.
 
 let number = 12.6;
-console.log(number.rounded);
+console.log(number.round);
