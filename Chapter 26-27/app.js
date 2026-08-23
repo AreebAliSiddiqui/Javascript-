@@ -20,3 +20,4 @@
 
 let number = 5.2;
 console.log(Math.ceil(number));
+ 
