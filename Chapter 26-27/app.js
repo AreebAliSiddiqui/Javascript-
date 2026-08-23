@@ -31,8 +31,16 @@
 // Math.ceil()
 // Students should predict the output before running the code.
 
-let number = 7.6;
-console.log(Math.round(number)); //8
-console.log(Math.floor(number)); //7
-console.log(Math.ceil(number)); //8
+// let number = 7.6;
+// console.log(Math.round(number)); //8
+// console.log(Math.floor(number)); //7
+// console.log(Math.ceil(number)); //8
 
+
+// Question 5
+// generate a random number.
+// Print the result in the console.
+// Run the program several times and observe the output.
+
+let generateNum = Math.random();
+console.log(Math.random());
