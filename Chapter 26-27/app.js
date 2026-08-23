@@ -18,6 +18,21 @@
 // Write a JavaScript program that stores 5.2 in a variable named number.
 // And print the result upper integer in console
 
-let number = 5.2;
-console.log(Math.ceil(number));
+// let number = 5.2;
+// console.log(Math.ceil(number));
  
+
+// Question 4
+// Create a variable:
+// let number = 7.6;
+// // Print the result of:
+// Math.round()
+// Math.floor()
+// Math.ceil()
+// Students should predict the output before running the code.
+
+let number = 7.6;
+console.log(Math.round(number)); //8
+console.log(Math.floor(number)); //7
+console.log(Math.ceil(number)); //8
+
