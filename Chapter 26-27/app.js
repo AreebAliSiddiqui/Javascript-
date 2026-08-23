@@ -68,12 +68,12 @@
 // If the number is greater than 50, print "Number is greater than 50"
 // Otherwise, print "Number is 50 or less"
 
-let randomNum = Math.floor(Math.random() * 100 + 1)
-console.log(randomNum);
-if(randomNum > 50){
-    console.log("Number is greater than 50");
+// let randomNum = Math.floor(Math.random() * 100 + 1)
+// console.log(randomNum);
+// if(randomNum > 50){
+//     console.log("Number is greater than 50");
     
-}else{
-    console.log("Number is 50 or less");
+// }else{
+//     console.log("Number is 50 or less");
     
-}
+// }
