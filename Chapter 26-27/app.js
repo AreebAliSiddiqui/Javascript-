@@ -43,4 +43,13 @@
 // Run the program several times and observe the output.
 
 let generateNum = Math.random();
-console.log(Math.random());
+console.log(generateNum);
+
+
+// Question 6
+// Generate a random integer between 1 and 10.
+// Expected possible values:
+// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+let genNum = Math.floor(Math.random() * 11);
+console.log(genNum);
