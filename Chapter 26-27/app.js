@@ -49,14 +49,14 @@
 // Question 6
 // Generate a random integer between 1 and 10.
 // Expected possible values:
-// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+// // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
 // let genNum = Math.floor(Math.random() * 11);
 // console.log(genNum);
 
 
-// Question 7
-// Create a program that generates a random dice number between 1 and 6.
+// // Question 7
+// // Create a program that generates a random dice number between 1 and 6.
 
 // let diceNum = Math.floor(Math.random() * 7);
 // console.log(diceNum);
