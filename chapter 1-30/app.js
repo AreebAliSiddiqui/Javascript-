@@ -161,16 +161,107 @@
 // Question 16 
 // Create a string and print the character at index 2. Then print the character at the last index without manually writing the last index number.
 
-let car = "corolla";
-console.log(car.charAt(2));
-console.log(car.lastIndexOf("a"));
+// let car = "corolla";
+// console.log(car.charAt(2));
+// console.log(car.lastIndexOf("a"));
 
 
 // Question 17 
 // Create an array of five elements. Add one new element at the end and one new element at the beginning. Print the final array.
 
-let cars =["mehran","khyber","corolla","alto"];
-console.log(cars.push("BMW"));
-console.log(cars.unshift("cultus"));
-console.log(cars);
+// let cars =["mehran","khyber","corolla","alto"];
+// console.log(cars.push("BMW"));
+// console.log(cars.unshift("cultus"));
+// console.log(cars);
+
+
+// Question 18 
+// Create an array containing several values. Remove the last element and the first element, then print the updated array.
+
+// let array =["car","bike","aeroplane","rocket"];
+// array.pop();
+// array.shift();
+// console.log(array);
+
+
+// Question 19 
+// Create an array of at least six elements. Use splice() to remove two elements from the middle and insert one new element in their place.
+
+// let animals =["dog","cat","lion","tiger","bear","panda"];
+// animals.splice(2,2,"fox");
+// console.log(animals);
+
+
+// Question 20 
+// Create a string containing your full name. Replace one part of the string with another word and print the new string.
+
+// let name ="Areeb Ali Siddiqui";
+// name = name.replace("Areeb","usman");
+// console.log(name);
+
+
+// Question 21 
+// Create a variable named isLoggedIn and store a Boolean value. Use an if statement to print either "Welcome" or "Please login".
+
+// let isLoggedIn = false;
+// if (isLoggedIn == true){
+//   console.log("welcome");
+  
+// }else{
+//   console.log("please login");
+  
+// }
+
+
+// Question 22 
+// Create two variables, age and hasPermission. Use a nested if statement to allow access only when the user is old enough and has permission.
+
+// let age = 15;
+// let hasPermission = false;
+// if(age > 18){
+//   hasPermission =true;
+//   if(hasPermission == true){
+//     console.log("you are eligible to visit this site");
+    
+//   }
+// }else{
+//     console.log("you are not allowed");
+    
+//   }
+
+
+// Question 23 
+// Create an array of numbers and use a for loop to print the array values from the last element to the first element.
+
+// let numbers =[1,2,3,4,5,6,7,8,9];
+// for(let i = 8; i >= 0; i-- ){
+//   console.log(numbers[i]);
+  
+// }
+
+
+// Question 24 
+// Create a string containing mixed uppercase and lowercase letters. Convert the complete string to lowercase and then replace one word inside it.
+
+// let sentence = "Hello, How Are You";
+// console.log(sentence.toLowerCase());
+// sentence = sentence.replace("How","who");
+// console.log(sentence);
+
+
+// Question 25 
+// Use prompt() to ask the user for a number. Convert it to an integer, then check whether it is positive, negative, or zero.
+
+let number =prompt("Enter a random number");
+number = parseInt(number);
+if (number > 0){
+  console.log("it's positive");
+  
+}else if(number < 0){
+  console.log("it's negative");
+  
+}else{
+  console.log("it is zero");
+  
+}
 
