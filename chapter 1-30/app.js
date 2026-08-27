@@ -112,3 +112,8 @@
 
 // Question 12 
 // Generate a random integer between 1 and 20 and print it in the console.
+
+// let generateNum =Math.floor(Math.random() * 20) + 1;
+// console.log(generateNum);
+
+
