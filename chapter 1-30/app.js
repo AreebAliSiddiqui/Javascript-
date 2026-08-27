@@ -330,11 +330,12 @@
 // Question 30 
 // Create a small program that asks the user for a price and quantity using prompt(). Convert both inputs to numbers, calculate the total price, and print the total with two decimal places.
 
-// let price = prompt("Enter the price of the product which you want to buy");
-// let quantity = prompt("Enter the quantity of your product")
-// price = parseFloat(price);
-// quantity = parseInt(quantity);
-// let totalPrice = price * quantity;
-// let total ="The Total Price of the product is " + totalPrice;
-// totalPrice = totalPrice.toFixed(2);
-// console.log(total);
+let price = prompt("Enter the price of the product which you want to buy");
+let quantity = prompt("Enter the quantity of your product")
+price = parseFloat(price);
+quantity = parseInt(quantity);
+let totalPrice = price * quantity;
+let total ="The Total Price of the product is " + totalPrice;
+totalPrice = totalPrice.toFixed(2);
+console.log(total);
+ 
