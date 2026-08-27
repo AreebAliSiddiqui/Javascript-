@@ -117,3 +117,23 @@
 // console.log(generateNum);
 
 
+// Question 13 
+// Create a variable containing a string number such as "45.75". Convert it to a decimal number and print its data type.
+
+// let number = "45.75";
+// number = parseFloat(number);
+// console.log(typeof number);
+
+
+// Question 14 
+// Create an array named students. Use a loop to search for a student name stored in another variable. Use a Boolean flag to remember whether the student was found.
+
+let students =["areeb","ahmed","ali","usman","faiz"];
+let search = "ali";
+let hasFound = false;
+for(let i = 0; i < students.length; i++){
+  if(students[i] === search){
+    hasFound = true;
+  }
+}
+console.log(hasFound);
