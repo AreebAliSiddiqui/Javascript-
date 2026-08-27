@@ -101,3 +101,14 @@
 // console.log(sentence.replace("areeb","ahmed"));
 
 
+// Question 11 
+// Create a variable named number with a decimal value. Print the results of Math.round(), Math.floor(), and Math.ceil().
+
+// let number = 12.59;
+// console.log(Math.round(number));
+// console.log(Math.floor(number));
+// console.log(Math.ceil(number));
+
+
+// Question 12 
+// Generate a random integer between 1 and 20 and print it in the console.
