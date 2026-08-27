@@ -310,3 +310,18 @@
 // }
 
 
+// Question 29 
+// Create a random number between 1 and 100. Use an if / else statement to tell whether the number is greater than 50 or 50 and below.
+
+let randomNum = Math.floor(Math.random() * 100) + 1;
+console.log(randomNum);
+if (randomNum == 50){
+  console.log("Number is equal to 50");
+  
+}else if(randomNum > 50){
+  console.log("Number is greater than 50");
+  
+}else{
+  console.log("Number is less than 50");
+  
+}
