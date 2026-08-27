@@ -252,16 +252,47 @@
 // Question 25 
 // Use prompt() to ask the user for a number. Convert it to an integer, then check whether it is positive, negative, or zero.
 
-let number =prompt("Enter a random number");
-number = parseInt(number);
-if (number > 0){
-  console.log("it's positive");
+// let number =prompt("Enter a random number");
+// number = parseInt(number);
+// if (number > 0){
+//   console.log("it's positive");
   
-}else if(number < 0){
-  console.log("it's negative");
+// }else if(number < 0){
+//   console.log("it's negative");
   
-}else{
-  console.log("it is zero");
+// }else{
+//   console.log("it is zero");
   
-}
+// }
 
+
+
+// Question 26
+// Create a variable containing a decimal number. Convert the number to a string and print its value and its data type.
+
+// let number = 12.7;
+// number = number.toString();
+// console.log(number);
+// console.log(typeof number);
+
+
+// Question 27 
+// Create an array of names. Use a loop with a Boolean flag to check whether the name "Hassan" exists. Print "Found" or "Not Found".
+
+let students =["areeb","ali","hassan","usman"];
+let isfound = false;
+for (let i = 0; i < students.length; i++){
+  if(students[i] === "hassan"){
+    isfound = true;
+    console.log("hassan is found");
+    
+  }else{
+    console.log("not found");
+    
+  }
+}
+console.log(isfound);
+
+
+// Question 28 
+// Create a nested loop that prints a 3 × 3 pattern of stars. Do not write nine separate console.log() statements.
