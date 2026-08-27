@@ -279,20 +279,34 @@
 // Question 27 
 // Create an array of names. Use a loop with a Boolean flag to check whether the name "Hassan" exists. Print "Found" or "Not Found".
 
-let students =["areeb","ali","hassan","usman"];
-let isfound = false;
-for (let i = 0; i < students.length; i++){
-  if(students[i] === "hassan"){
-    isfound = true;
-    console.log("hassan is found");
+// let students =["areeb","ali","hassan","usman"];
+// let isfound = false;
+// for (let i = 0; i < students.length; i++){
+//   if(students[i] === "hassan"){
+//     isfound = true;
+//     console.log("hassan is found");
     
-  }else{
-    console.log("not found");
+//   }else{
+//     console.log("not found");
     
-  }
-}
-console.log(isfound);
+//   }
+// }
+// console.log(isfound);
 
 
 // Question 28 
 // Create a nested loop that prints a 3 × 3 pattern of stars. Do not write nine separate console.log() statements.
+
+// let star1 =["*"];
+// let star2 =["*"];
+// let stars =["*","*","*"];
+// for (let i = 0; i < star1.length; i++){
+//   for(let j = 0; j < star2.length; j++){
+//     for(let k = 0; k < stars.length; k++){
+//       console.log(star1[i],star2[j],stars[k]);
+      
+//     }
+//   }
+// }
+
+
