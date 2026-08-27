@@ -338,3 +338,4 @@ let totalPrice = price * quantity;
 let total ="The Total Price of the product is " + totalPrice;
 totalPrice = totalPrice.toFixed(2);
 console.log(total);
+ 
