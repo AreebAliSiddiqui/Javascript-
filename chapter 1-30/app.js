@@ -128,12 +128,49 @@
 // Question 14 
 // Create an array named students. Use a loop to search for a student name stored in another variable. Use a Boolean flag to remember whether the student was found.
 
-let students =["areeb","ahmed","ali","usman","faiz"];
-let search = "ali";
-let hasFound = false;
-for(let i = 0; i < students.length; i++){
-  if(students[i] === search){
-    hasFound = true;
-  }
-}
-console.log(hasFound);
+// let students =["areeb","ahmed","ali","usman","faiz"];
+// let search = "ali";
+// let hasFound = false;
+// for(let i = 0; i < students.length; i++){
+//   if(students[i] === search){
+//     hasFound = true;
+//   }
+// }
+// console.log(hasFound);
+
+
+// Question 15 
+// Create a variable named score. Use if / else if / else to print different messages for scores of 80+, 60+, 40+, and below 40.
+
+// let score =prompt("Enter your marks");
+// if(score >= 80){
+//   console.log("Excellent");
+  
+// }else if(score >= 60){
+//   console.log("Good");
+  
+// }else if(score >= 50 ){
+//   console.log("Need improvement");
+  
+// }else{
+//   console.log("you are failed, focus on your studies");
+  
+// }
+
+
+// Question 16 
+// Create a string and print the character at index 2. Then print the character at the last index without manually writing the last index number.
+
+let car = "corolla";
+console.log(car.charAt(2));
+console.log(car.lastIndexOf("a"));
+
+
+// Question 17 
+// Create an array of five elements. Add one new element at the end and one new element at the beginning. Print the final array.
+
+let cars =["mehran","khyber","corolla","alto"];
+console.log(cars.push("BMW"));
+console.log(cars.unshift("cultus"));
+console.log(cars);
+
