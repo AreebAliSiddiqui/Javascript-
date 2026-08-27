@@ -60,17 +60,44 @@
 // Question 7 
 // Create a variable named name containing your name in lowercase. Convert it to uppercase and print the result.
 
-let name = "areeb ali siddiqui";
-name = name.toUpperCase();
-console.log(name);
+// let name = "areeb ali siddiqui";
+// name = name.toUpperCase();
+// console.log(name);
 
 
 // Question 8 
 // Create a nested for loop that prints the multiplication pairs for numbers 1 to 3. The output should show every combination of the two loop counters.
 
-for(let i = 1; i <= 3; i++){
-  for(let j = 1; j <= 10; j++){
-    console.log(i + " X "+ j + " = " + i*j );
+// for(let i = 1; i <= 3; i++){
+//   for(let j = 1; j <= 10; j++){
+//     console.log(i + " X "+ j + " = " + i*j );
     
-  }
-}
+//   }
+// }
+
+
+// Question 9 
+// Create an array containing six numbers. Use a loop to count how many numbers are greater than 10. Print the final count.
+
+// let numbers =[5,15,25,7,9,33,55,34];
+// let count = 0;
+// for (let i = 0; i < numbers.length; i++){
+//   if(numbers[i] > 10){
+//     count++
+//   }
+// }
+// console.log(count);
+
+
+// Question 10 
+// Create a variable containing a sentence. Find the position of a word inside the sentence using a string method and print the position.
+
+// let sentence ="hello, My name is areeb ali siddiqui";
+// console.log(sentence.indexOf("areeb"));
+// console.log(sentence.lastIndexOf("i"));
+// console.log(sentence.charAt(35));
+// console.log(sentence.length);
+// console.log(sentence.slice(0,8));
+// console.log(sentence.replace("areeb","ahmed"));
+
+
