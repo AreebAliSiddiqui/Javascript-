@@ -34,7 +34,21 @@
 // Minutes
 // Seconds
 
-let currentTime = new Date();
-console.log(currentTime.getHours());
-console.log(currentTime.getMinutes());
-console.log(currentTime.getSeconds());
+// let currentTime = new Date();
+// console.log(currentTime.getHours());
+// console.log(currentTime.getMinutes());
+// console.log(currentTime.getSeconds());
+
+
+// Question 5
+// Print the current year.
+// Then current year change to 2030.
+// Finally, print only the updated year.
+
+let currentYear = new Date();
+console.log(currentYear.getFullYear());
+currentYear.setFullYear(2030);
+let newYear = currentYear.getFullYear();
+console.log(newYear);
+
+
