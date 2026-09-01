@@ -45,10 +45,23 @@
 // Then current year change to 2030.
 // Finally, print only the updated year.
 
-let currentYear = new Date();
-console.log(currentYear.getFullYear());
-currentYear.setFullYear(2030);
-let newYear = currentYear.getFullYear();
-console.log(newYear);
+// let currentYear = new Date();
+// console.log(currentYear.getFullYear());
+// currentYear.setFullYear(2030);
+// let newYear = currentYear.getFullYear();
+// console.log(newYear);
 
 
+// Question 6
+// Create a Date object and store it in a variable named date.
+// Change to:
+// Year → 2027
+// Month → December
+// Date → 28
+// Then print the updated Date object.
+
+// let date = new Date();
+// date.setYear(2027);
+// date.setMonth(11);
+// date.setDate(28);
+// console.log(date);
