@@ -25,3 +25,16 @@
 // let activeMonth = new Date();
 // console.log(activeMonth.getMonth());
 // console.log(typeof activeMonth.getMonth());
+
+
+// Question 4
+// Create a variable named currentTime using new Date().
+// Print separately:
+// Hours
+// Minutes
+// Seconds
+
+let currentTime = new Date();
+console.log(currentTime.getHours());
+console.log(currentTime.getMinutes());
+console.log(currentTime.getSeconds());
