@@ -44,14 +44,28 @@
 // "You are not eligible"
 // Call the function with 20.
 
-function checkAge(age){
-    if(age >= 18){
-        return "You are eligible"
-    }else{
-        return "You are not eligible"
+// function checkAge(age){
+//     if(age >= 18){
+//         return "You are eligible"
+//     }else{
+//         return "You are not eligible"
+//     }
+// }
+// let result = checkAge(15);
+// console.log(result);
+
+
+// 6) Create a function named printNumbers that takes a number limit.
+// Use a for loop inside the function to print numbers from 1 to limit.
+// Call:
+// printNumbers(5);
+
+function printNumbers(limit){
+    let number = limit;
+    for(let i = 1; i <= number; i++){
+        return i;
+    
     }
 }
-let result = checkAge(15);
+let result = printNumbers(5);
 console.log(result);
-
-
