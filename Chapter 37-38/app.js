@@ -60,12 +60,10 @@
 // Call:
 // printNumbers(5);
 
-function printNumbers(limit){
-    let number = limit;
-    for(let i = 1; i <= number; i++){
-        return i;
-    
-    }
-}
-let result = printNumbers(5);
-console.log(result);
+// function printNumbers(limit){
+//     for(let i = 1; i <= limit; i++){
+//         console.log(i);
+//     }
+// }
+// printNumbers(5);
+
