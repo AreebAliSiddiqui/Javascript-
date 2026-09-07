@@ -73,12 +73,36 @@
 // The function should use a loop to print every student.
 // Call the function.
 
-let students = ["Hassan", "Ali", "Ahmed", "Sara"];
+// let students = ["Hassan", "Ali", "Ahmed", "Sara"];
 
-function showStudents(){
-    for (let i = 0; i < students.length; i++){
-        console.log(students[i]);
+// function showStudents(){
+//     for (let i = 0; i < students.length; i++){
+//         console.log(students[i]);
         
-    }
-}
-showStudents();
+//     }
+// }
+// showStudents();
+
+
+// 8)Look at this code
+// function test() {
+// let message = "Hello";
+// console.log(message);
+// }
+// test();
+// Answer:
+// Is message a local or global variable?
+// Can we use message outside the function?
+// What happens if we write:
+// console.log(message);
+// outside the function?
+// Don't just run the code. Explain first.
+
+// function test() {
+// let message = "Hello";
+// console.log(message);
+// }
+// test();
+// console.log(message);// it gives a undefined error becuz message variable is declare inside a function so it can only be access inside not outside.
+
+// message is a local variable cuz it is used inside a function of block
