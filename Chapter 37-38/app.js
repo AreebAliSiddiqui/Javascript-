@@ -36,3 +36,22 @@
 // } 
 // let result = calculateSquare(25);
 // console.log(result);
+
+// 5) Create a function named checkAge that takes age.
+// If age is 18 or greater, return:
+// "You are eligible"
+// otherwise return
+// "You are not eligible"
+// Call the function with 20.
+
+function checkAge(age){
+    if(age >= 18){
+        return "You are eligible"
+    }else{
+        return "You are not eligible"
+    }
+}
+let result = checkAge(15);
+console.log(result);
+
+
