@@ -6,3 +6,13 @@ function userName(name){
     
 }
 userName("Hassan");
+
+
+// 2) Create a function named addWords that takes two parameters.
+// Pass "Hello" and "World" to the function and print boths word concat.
+
+function addWords(one,two){
+    console.log(one +" "+ two);
+    
+}
+addWords("Hello","World")
