@@ -67,3 +67,18 @@
 // }
 // printNumbers(5);
 
+
+// 7) let students = ["Hassan", "Ali", "Ahmed", "Sara"];
+// Create a function named showStudents.
+// The function should use a loop to print every student.
+// Call the function.
+
+let students = ["Hassan", "Ali", "Ahmed", "Sara"];
+
+function showStudents(){
+    for (let i = 0; i < students.length; i++){
+        console.log(students[i]);
+        
+    }
+}
+showStudents();
