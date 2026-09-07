@@ -26,3 +26,13 @@
 // }
 // let result = multiply(5,8);
 // console.log(result);
+
+
+// 4) Create a function named calculateSquare that takes a number and returns its square.
+// Call the function with 6.
+
+// function calculateSquare(value){
+//     return value ** 2;
+// } 
+// let result = calculateSquare(25);
+// console.log(result);
