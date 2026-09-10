@@ -106,9 +106,4 @@
 // console.log(message);// it gives a undefined error becuz message variable is declare inside a function so it can only be access inside not outside.
 // message is a local variable cuz it is used inside a function of block
  
-function callMyFunction(){
-    let localVarible = "Hey Local Varible!!";
-    console.log(localVarible);
-}
-callMyFunction()
-console.log(localVarible);
+ 
