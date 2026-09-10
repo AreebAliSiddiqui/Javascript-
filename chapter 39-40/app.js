@@ -16,3 +16,20 @@
 //     default :
 //     console.log("No day!!");
 // }
+
+
+let myCar =prompt("Enter yoyr car name");
+
+switch (myCar){
+    case "Mehran" :
+    console.log("nice");
+    break;
+
+    case "corolla":
+    console.log("nice car");
+    break;
+
+    case "Alto":
+    console.log("Good");
+    break;    
+}
