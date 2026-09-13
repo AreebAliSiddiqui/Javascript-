@@ -57,14 +57,14 @@
 // print(10)
 
 
-let sum = 0;
-function add(number){
-    let i = 1;
-    while (i <= number){
-        sum = sum + i;
-    i++;
-    }
-return sum;
-}
-let result = add(10);
-console.log(result);
+// let sum = 0;
+// function add(number){
+//     let i = 1;
+//     while (i <= number){
+//         sum = sum + i;
+//     i++;
+//     }
+// return sum;
+// }
+// let result = add(10);
+// console.log(result);
