@@ -69,3 +69,11 @@
 // let result = add(10);
 // console.log(result);
   
+
+// var total = 0; for (var i = 1; i <= 3; i++) { 
+//     for (var j = 1; j <= 2; j++) { 
+//         total = total + i; } 
+//     }
+//      console.log(total);
+
+   
