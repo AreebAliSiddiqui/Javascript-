@@ -76,3 +76,7 @@
 //     }
 //      console.log(total);
  
+
+function name(first,last){
+    return "Welcome " + first +" "+last;
+}
