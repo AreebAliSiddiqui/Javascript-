@@ -77,6 +77,8 @@
 //      console.log(total);
  
 
-function name(first,last){
+function student(first,last){
     return "Welcome " + first +" "+last;
 }
+let result = student(Areeb,Ali);
+console.log(result);
