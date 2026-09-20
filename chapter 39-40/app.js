@@ -80,5 +80,5 @@
 function student(first,last){
     return "Welcome " + first +" "+last;
 }
-let result = student(Areeb,Ali);
+let result = student("Areeb","Ali");
 console.log(result);
