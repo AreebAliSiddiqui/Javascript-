@@ -82,3 +82,4 @@ function student(first,last){
 }
 let result = student("Areeb","Ali");
 console.log(result);
+
