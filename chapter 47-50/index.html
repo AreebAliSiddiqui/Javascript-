@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Inputfields">
+       
+        <h1>Personal Information</h1>
+        <Form>
+            <div class="usernmae">
+                <label>Username</label>
+                <input type="text" id="username">
+            </div><br>
+            <div class="email">
+                <label>Email</label>
+                <input type="text" id="email">
+            </div><br>
+            <div class="pass">
+                <label>Password</label>
+                <input type="password" id="password">
+            </div><br>
+            <div class="age">
+                <label>Age</label>
+
+                <input type="number" id="age">
+            </div><br>
+            <div class="gender">
+                <label>Gender</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="Female" name="gender" value="Female">
+                <label for="Female">Female</label>
+
+                <input type="radio" id="Other" name="gender" value="Other">
+                <label for="Female">Other</label>
+            </div><br>
+            <div class="city">
+                <label>City</label>
+
+                <input type="text" id="City">
+            </div><br>
+           </Form>
+            <div class="submit">
+                <button id="btn" onclick="submitForm()">Submit</button>
+            </div><br>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

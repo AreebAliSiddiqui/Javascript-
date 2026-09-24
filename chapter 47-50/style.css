@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF2BA;
+}
+
+Form{
+margin-left: 30px;
+margin-top: 30px;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 40px;
+    color: #03534a;
+}
+
+label{
+    font-size: 20px;
+    color: #0F3C65;
+}
+
+#username{
+    margin-left: 20px;
+    width: 220px;
+    height: 20px;
+    background-color: #e4dec2;
+}
+
+#email{
+    margin-left: 49px;
+    width: 220px;
+    height: 20px;
+    background-color: #e4dec2;
+}
+
+
+#password{
+    margin-left: 18px;
+     width: 220px;
+    height: 20px;
+    background-color: #e4dec2;
+}
+
+#age{
+    margin-left: 62px;
+     width: 220px;
+    height: 20px;
+    background-color: #e4dec2;
+   
+}
+
+#male{
+    margin-left: 20px;
+  
+}
+
+#City{
+    margin-left: 56px;
+     width: 220px;
+    height: 20px;
+    background-color: #e4dec2;
+}
+
+#btn{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #e4dec2;
+}
+
+#btn:hover{
+    background: #03534a;
+    color: #e4dec2;
+}
