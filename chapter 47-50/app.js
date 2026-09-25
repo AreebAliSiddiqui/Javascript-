@@ -20,9 +20,27 @@ form.addEventListener("submit", function (event) {
         age = age + " (Senior)";
     };
 
-
     let gender = document.querySelector('input[name="gender"]:checked').value;
-    let city = document.getElementById("City").value;
+    let city = document.getElementById("city").value;
+    city = city.toUpperCase();
+
+    switch(city){
+        case  "KARACHI" :
+            city = "Live in " + city;
+            break;
+        case "ISLAMABAD" :
+            city = "Live in " + city;
+            break;
+        case "LAHORE" :
+            city = "Live in " + city;
+            break;
+        case "QUETTA" :
+            city = "Live in " + city;
+            break;
+        default :
+            city = "Live in " + city;         
+            
+    }
 
     console.log("userName : " + userName);
     console.log("email : " + email);
