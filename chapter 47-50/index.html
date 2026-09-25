@@ -9,29 +9,42 @@
 </head>
 
 <body>
-    <div class="Inputfields">
-       
-        <h1>Personal Information</h1>
-        <Form>
-            <div class="usernmae">
-                <label>Username</label>
-                <input type="text" id="username">
-            </div><br>
-            <div class="email">
-                <label>Email</label>
-                <input type="text" id="email">
-            </div><br>
-            <div class="pass">
-                <label>Password</label>
-                <input type="password" id="password">
-            </div><br>
-            <div class="age">
-                <label>Age</label>
+    <main class="container">
 
-                <input type="number" id="age">
+        <form id="userform">
+
+            <h1>Personal Information</h1>
+
+            <p class="para">Please enter your information below</p>
+
+            <!-- username  -->
+            <div class="usernmae">
+                <label for="usernmae">Username</label>
+                <input type="text" id="username" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
             </div><br>
+
+            <!-- email -->
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
+            </div><br>
+
+            <!-- password -->
+            <div class="pass">
+                <label for="password">Password</label>
+                <input type="password" id="password" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
+            </div><br>
+
+            <!-- age -->
+            <div class="age" >
+                <label for="Age">Age</label>
+
+                <input type="number" id="age" required>
+            </div><br>
+
+            <!-- Gender -->
             <div class="gender">
-                <label>Gender</label>
+                <label for="Gender">Gender</label>
 
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label>
@@ -42,19 +55,24 @@
                 <input type="radio" id="Other" name="gender" value="Other">
                 <label for="Female">Other</label>
             </div><br>
-            <div class="city">
-                <label>City</label>
 
-                <input type="text" id="City">
+            <!-- City -->
+            <div class="city">
+                <label for="city">City</label>
+                <input type="text" id="City" required>
             </div><br>
-           </Form>
+
+            <!-- Submit Button -->
             <div class="submit">
-                <button id="btn" onclick="submitForm()">Submit</button>
+                <button type="submit" id="btn" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'"> Submit</button>
             </div><br>
-        
-    </div>
+
+
+        </form>
+
+    </main>
 
     <script src="app.js"></script>
 </body>
 
-</html>  
+</html>

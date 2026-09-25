@@ -1,4 +1,9 @@
-function submitForm() {
+
+let form = document.getElementById("userform");
+form.addEventListener("submit", function (event){
+
+    event.preventDefault();
+
     let userName = document.getElementById("username").value;
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
@@ -14,6 +19,7 @@ function submitForm() {
     console.log("gender : " + gender);
     console.log("city : " + city);
 
-
-}
+    form.reset();
+    
+})
  
