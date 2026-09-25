@@ -1,6 +1,6 @@
 
 let form = document.getElementById("userform");
-form.addEventListener("submit", function (event){
+form.addEventListener("submit", function (event) {
 
     event.preventDefault();
 
@@ -9,6 +9,18 @@ form.addEventListener("submit", function (event){
     let password = document.getElementById("password").value;
     let age = document.getElementById("age").value;
     age = Number(age);
+
+    if (age < 13) {
+        age = age + " (Child)";
+    } else if (age < 17) {
+        age = age + " (Teenager)";
+    } else if (age >= 18) {
+        age = age + " (Adult)";
+    } else if (age > 60) {
+        age = age + " (Senior)";
+    };
+
+
     let gender = document.querySelector('input[name="gender"]:checked').value;
     let city = document.getElementById("City").value;
 
@@ -20,6 +32,5 @@ form.addEventListener("submit", function (event){
     console.log("city : " + city);
 
     form.reset();
-    
+
 })
- 
