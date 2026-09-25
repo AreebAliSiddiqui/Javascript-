@@ -1,81 +1,102 @@
-body {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFF2BA;
 }
 
-Form {
-    margin-left: 30px;
-    margin-top: 30px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+}
+
+#userform{
+    background-color: rgba(225,225,225,0.1);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,225,225,0.3);
+    
 }
 
 h1 {
-    margin-left: 20px;
+    text-align: center;
     font-size: 40px;
-    color: #03534a;
+    color: #fff;
+    
 }
 
-label {
-    font-size: 20px;
-    color: #0F3C65;
-}
-
-#username {
-    margin-left: 20px;
-    width: 220px;
-    height: 20px;
-    background-color: #e4dec2;
-}
-
-#email {
-    margin-left: 49px;
-    width: 220px;
-    height: 20px;
-    background-color: #e4dec2;
-}
-
-
-#password {
-    margin-left: 18px;
-    width: 220px;
-    height: 20px;
-    background-color: #e4dec2;
-}
-
-#age {
-    margin-left: 62px;
-    width: 220px;
-    height: 20px;
-    background-color: #e4dec2;
+.para{
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
 
 }
 
-#male {
-    margin-left: 20px;
+.form-group{
+    margin-bottom: 10px;
+}
+
+#label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: 600;
+   color: rgba(225,225,225,0.5);
+   font-size: 16px;
+   
+}
+
+ 
+.input{
+width: 100%;
+padding: 8px;
+border: none;
+background: none;
+outline: none;
+color: #fff;
+font-size: 18px;
+border-bottom: 2px solid rgba(225,225,225,0.5);
+transition: 0.4s;
 
 }
 
-#city {
-    margin-left: 56px;
-    width: 220px;
-    height: 20px;
-    background-color: #e4dec2;
+.input:focus{
+    border-color: #00ffff;
+    box-shadow: 0 5px 15px rgba(0,225,225,0.3);
 }
+
+#male,#Female,#Other{
+    margin-top: 15px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
 
 #btn {
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 100px;
-    height: 25px;
-    border-radius: 10px;
-    font-size: 17px;
+    border: none;
+    color: #000;
+    padding: 12px 30px;
+    width: 100%;
+    border-radius: 25px;
     font-weight: bold;
-    background-color: #e4dec2;
+    font-size: 17px;
+    cursor: pointer;
+    background: linear-gradient(90deg,#00ffff,#00ff80);
+    transform: 0.4s;
+    margin-top: 10px;
 }
 
 #btn:hover {
-    background: #03534a;
-    color: #e4dec2;
+    background: linear-gradient(90deg,#00ff80,#00ffff);
+    box-shadow: 0 5px 15px #00ffff80;
 }
   

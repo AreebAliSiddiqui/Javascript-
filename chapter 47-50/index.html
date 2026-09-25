@@ -18,53 +18,53 @@
             <p class="para">Please enter your information below</p>
 
             <!-- username  -->
-            <div class="usernmae">
-                <label for="usernmae">Username</label>
-                <input type="text" id="username" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
+            <div class="form-group">
+                <label for="usernmae" id="label">Username</label>
+                <input type="text" id="username" class="input" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
             </div><br>
 
             <!-- email -->
-            <div class="email">
-                <label for="email">Email</label>
-                <input type="text" id="email" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
+            <div class="form-group">
+                <label for="email" id="label">Email</label>
+                <input type="text" id="email" class="input" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
             </div><br>
 
             <!-- password -->
-            <div class="pass">
-                <label for="password">Password</label>
-                <input type="password" id="password" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
+            <div class="form-group">
+                <label for="password" id="label">Password</label>
+                <input type="password" id="password" class="input" onfocus="this.style.color='red'" onblur="this.style.color='black'" required>
             </div><br>
 
             <!-- age -->
-            <div class="age" >
-                <label for="Age">Age</label>
+            <div class="form-group" >
+                <label for="Age" id="label">Age</label>
 
-                <input type="number" id="age" required>
+                <input type="text" id="age" class="input" required>
             </div><br>
 
             <!-- Gender -->
             <div class="gender">
-                <label for="Gender">Gender</label>
+                <label for="Gender" id="label">Gender</label>
 
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label>
+                <label id="male" for="male">Male</label>
 
                 <input type="radio" id="Female" name="gender" value="Female">
-                <label for="Female">Female</label>
+                <label id="Female" for="Female">Female</label>
 
                 <input type="radio" id="Other" name="gender" value="Other">
-                <label for="Female">Other</label>
+                <label id="Other" for="Female">Other</label>
             </div><br>
 
             <!-- City -->
-            <div class="city">
-                <label for="city">City</label>
-                <input type="text" id="city" required>
+            <div class="form-group">
+                <label for="city" id="label">City</label>
+                <input type="text" id="city" class="input" required>
             </div><br>
 
             <!-- Submit Button -->
             <div class="submit">
-                <button type="submit" id="btn" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'"> Submit</button>
+                <button type="submit" id="btn" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Submit</button>
             </div><br>
 
 
