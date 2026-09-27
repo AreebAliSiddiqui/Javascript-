@@ -24,22 +24,22 @@ form.addEventListener("submit", function (event) {
     let city = document.getElementById("city").value;
     city = city.toUpperCase();
 
-    switch(city){
-        case  "KARACHI" :
+    switch (city) {
+        case "KARACHI":
             city = "Live in " + city;
             break;
-        case "ISLAMABAD" :
+        case "ISLAMABAD":
             city = "Live in " + city;
             break;
-        case "LAHORE" :
+        case "LAHORE":
             city = "Live in " + city;
             break;
-        case "QUETTA" :
+        case "QUETTA":
             city = "Live in " + city;
             break;
-        default :
-            city = "Live in " + city;         
-            
+        default:
+            city = "Live in " + city;
+
     }
 
     console.log("userName : " + userName);

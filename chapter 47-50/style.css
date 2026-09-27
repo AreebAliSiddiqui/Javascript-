@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,27 +14,27 @@ body {
     align-items: center;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 500px;
 }
 
-#userform{
-    background-color: rgba(225,225,225,0.1);
+#userform {
+    background-color: rgba(225, 225, 225, 0.1);
     padding: 35px;
     border-radius: 12px;
-    box-shadow: 0 0 35px rgba(0,225,225,0.3);
-    
+    box-shadow: 0 0 35px rgba(0, 225, 225, 0.3);
+
 }
 
 h1 {
     text-align: center;
     font-size: 40px;
     color: #fff;
-    
+
 }
 
-.para{
+.para {
     text-align: center;
     color: #777;
     margin-bottom: 30px;
@@ -43,7 +42,7 @@ h1 {
 
 }
 
-.form-group{
+.form-group {
     margin-bottom: 10px;
 }
 
@@ -51,36 +50,39 @@ h1 {
     display: block;
     margin-bottom: 0px;
     font-weight: 600;
-   color: rgba(225,225,225,0.5);
-   font-size: 16px;
-   
-}
-
- 
-.input{
-width: 100%;
-padding: 8px;
-border: none;
-background: none;
-outline: none;
-color: #fff;
-font-size: 18px;
-border-bottom: 2px solid rgba(225,225,225,0.5);
-transition: 0.4s;
+    color: rgba(225, 225, 225, 0.5);
+    font-size: 16px;
 
 }
 
-.input:focus{
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(225, 225, 225, 0.5);
+    transition: 0.4s;
+
+}
+
+.input:focus {
     border-color: #00ffff;
-    box-shadow: 0 5px 15px rgba(0,225,225,0.3);
+    box-shadow: 0 5px 15px rgba(0, 225, 225, 0.3);
 }
 
-#male,#Female,#Other{
+#male,
+#Female,
+#Other {
     margin-top: 15px;
     font-weight: 600;
     margin-right: 8px;
-    color: rgba(225,225,225,0.5);
-   
+    color: rgba(225, 225, 225, 0.5);
+
 }
 
 
@@ -93,13 +95,13 @@ transition: 0.4s;
     font-weight: bold;
     font-size: 17px;
     cursor: pointer;
-    background: linear-gradient(90deg,#00ffff,#00ff80);
+    background: linear-gradient(90deg, #00ffff, #00ff80);
     transform: 0.4s;
+    transition: 0.2s;
     margin-top: 10px;
 }
 
 #btn:hover {
-    background: linear-gradient(90deg,#00ff80,#00ffff);
+    background: linear-gradient(90deg, #00ff80, #00ffff);
     box-shadow: 0 5px 15px #00ffff80;
 }
-  
