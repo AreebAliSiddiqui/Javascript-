@@ -7,8 +7,26 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    
+     background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(100, 70, 255, 0.25),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 90% 30%,
+            rgba(255, 40, 150, 0.18),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 50% 100%,
+            rgba(0, 180, 255, 0.15),
+            transparent 35%
+        ),
+        #070b20;
 }
+
+
 
 .title{
     display: flex;
@@ -16,9 +34,23 @@ body{
     margin-top: 50px;
 }
 
+.head{
+     background:
+        linear-gradient(
+            90deg,
+            #8b7cff,
+            #ff4fa3,
+            #4edfff
+        );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .tagline{
     display: flex;
     margin-left: 75px;
+    color: white;
     
 }
 
@@ -41,12 +73,31 @@ li{
     
     max-width: 650px;
     background-color: aqua;
-    height: 400px;
+    height: 350px;
     margin-left: 60px;
     margin-top: 20px;
     border-radius: 10px;
     display: flex;
-    /* align-items: center; */
+
+    background:
+        radial-gradient(
+            circle at 10% 10% ,
+            rgba(247, 36, 145, 1),
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at 90% 90% ,
+            rgba(0, 180, 255, 0.5),
+            transparent 30%
+        )
+        #0d1435;
+
+    border: 1px solid rgba(125, 110, 255, 0.35);
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.35);
+
+    
     
 }
 
@@ -54,38 +105,79 @@ li{
     display: block;
 }
 
+
 .profile img{
     width: 170px;
     border-radius: 50%;
     margin-top: 70px;
     margin-left: 20px;
     
+    
 }
 
 .sticker{
     width: 380px;
     padding: 10px;
-    background-color: bisque;
+    background: linear-gradient(90deg, #8b7cff, #ff4fa3, #4edfff);
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 40px;
 }
 
 .tag{
     font-size: 27px;
+    color: rgb(255, 255, 255)
 }
 
 .name{
     margin-top: 10px;
     margin-left: 40px;
+    color: white;
 }
 
 .role{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 40px;
+    background: linear-gradient(90deg,rgba(255, 40, 150, 1),rgba(0, 180, 255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .description{
-     margin-top: 5px;
+     margin-top: 10px;
     margin-left: 40px;
+    color: white;
+}
+
+.status{
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid greenyellow ;
+    border-radius: 20px;
+    padding: 2px;
+    width: 210px;
+    color: white;
+}
+
+.profile-btn{
+ padding: 10px;
+ margin-top: 20px;
+ margin-left: 40px;
+ border-radius: 10px;
+ width: 130px;
+ background-color: rgb(182, 72, 197);
+  color: white;
+ font-weight: bold;
+
+}
+
+.image-btn{
+ padding: 10px;
+ margin-top: 20px;
+ width: 130px;
+ margin-left: 30px;
+ border-radius: 10px;
+ background-color: rgb(21, 133, 182);
+ color: white;
+ font-weight: bold;
 }
