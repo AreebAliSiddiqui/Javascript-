@@ -97,8 +97,14 @@ li{
     box-shadow:
         0 20px 60px rgba(0, 0, 0, 0.35);
 
+    transition: 0.4s;
     
+}
+
+.main:hover{
     
+    transform: translateY(-7px);
+    box-shadow:0 10px 40px rgb(0, 180, 255);
 }
 
 .bio{
@@ -157,6 +163,7 @@ li{
     padding: 2px;
     width: 210px;
     color: white;
+    background-color: #476e0d;
 }
 
 .profile-btn{
@@ -168,6 +175,13 @@ li{
  background-color: rgb(182, 72, 197);
   color: white;
  font-weight: bold;
+transition: 0.4s;
+}
+
+.profile-btn:hover{
+    background-color: white;
+    color: rgb(182, 72, 197);
+    transform: translateY(-3px);
 
 }
 
@@ -180,4 +194,11 @@ li{
  background-color: rgb(21, 133, 182);
  color: white;
  font-weight: bold;
+ transition: 0.4s;
+}
+
+.image-btn:hover{
+    background-color: white;
+    color: rgb(21, 133, 182);
+    transform: translateY(-3px);
 }
