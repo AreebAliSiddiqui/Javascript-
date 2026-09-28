@@ -24,6 +24,8 @@ body{
             transparent 35%
         ),
         #070b20;
+
+        overflow-y: hidden;
 }
 
 
@@ -70,6 +72,16 @@ li{
 }
 
 .main{
+    display: grid;
+    grid-template-columns: 1.5fr,1fr;
+    grid-template-rows:400px,200px ;
+    width: 800px;
+    height: 450px;
+    gap: 20px;
+}
+
+
+.main-section{
     
     max-width: 650px;
     background-color: aqua;
@@ -101,9 +113,9 @@ li{
     
 }
 
-.main:hover{
+.main-section:hover{
     
-    transform: translateY(-7px);
+    transform: translateY(-5px);
     box-shadow:0 10px 40px rgb(0, 180, 255);
 }
 
@@ -182,6 +194,8 @@ transition: 0.4s;
     background-color: white;
     color: rgb(182, 72, 197);
     transform: translateY(-3px);
+      box-shadow:
+        0 10px 25px rgb(212, 105, 226);
 
 }
 
@@ -201,4 +215,20 @@ transition: 0.4s;
     background-color: white;
     color: rgb(21, 133, 182);
     transform: translateY(-3px);
+      box-shadow:
+        0 10px 25px  rgb(20, 135, 184);
+}
+
+
+.side-section{
+    width: 200px;
+    height: 300px;
+    background-color: #476e0d;
+   
+}
+
+.lower-section{
+       width: 200px;
+    height: 300px;
+    background-color: #476e0d;
 }
