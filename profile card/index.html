@@ -29,15 +29,15 @@
         <main class="main">
             <section class="main-section">
                 <div class="profile">
-                    <img src="images/areeb.png" alt="Profile image" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/areeb2.png" alt="Profile image" id="image" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                 </div>
                 <div class="bio">
                     <div class="sticker">
-                        <h1 class="tag">
+                        <h1 class="tag" id="head">
                             </> MY DIGITAL PROFILE</h1>
                     </div>
                     <h2 class="name">AREEB ALI SIDDIQUI</h1>
-                        <h2 class="role" id="role2">FRONTEND DEVELOPER</h1>
+                        <h2 class="role" id="role">FRONTEND DEVELOPER</h1>
                             <p class="description" id="descrip">Turning ideas into clean, responsive and user-friendly web experince.
                             </p>
                             <div class="status">● AVAILABLE FOR WORK</div>
@@ -45,7 +45,7 @@
 
 
                             <button class="profile-btn" onclick="changeprofile()">Change Profile</button>
-                            <button class="image-btn">Change Image</button>
+                            <button class="image-btn" onclick="changeimage()">Change Image</button>
 
                 </div>
 
@@ -61,11 +61,11 @@
              </div>
 
              <div class="btn">
-                <button id="submit">Introduce ME</button>
+                <button type="submit" id="submit" onclick="showname()">Introduce ME</button>
              </div>
 
              <div class="message">
-                <p class="p1">Hello,there !</p>
+                <p class="p1" id="message">Hello,there !</p>
                 <p class="p2">Nice to meet you!😊</p>
              </div>
 
