@@ -16,4 +16,4 @@ function showname(){
     name = name.toUpperCase();
     let message = document.getElementById("message").innerHTML = "Hello, "+ name;
     name.reset();
-} 
+}  
