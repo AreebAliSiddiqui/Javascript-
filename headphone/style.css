@@ -61,3 +61,46 @@ body{
     margin-top: 140px;
     margin-left: 40px;
 }
+
+.name{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.type{
+    font-size: 35px;
+    color: #B98E2E;
+    margin-bottom: 5px;
+}
+
+.details{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.price{
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buy{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(24, 87%, 94%);
+    color: #B98E2E;
+    font-weight: 600;
+}
+
+.change{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: hsl(24, 87%, 94%);
+    color: #B98E2E;
+    font-weight: 600;
+}
