@@ -94,6 +94,14 @@ body{
     background-color: hsl(24, 87%, 94%);
     color: #B98E2E;
     font-weight: 600;
+    transition: 0.2s;
+}
+
+.buy:hover{
+    background-color: #B98E2E;
+    color:hsl(24, 87%, 94%) ;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px #997526;
 }
 
 .change{
@@ -103,4 +111,12 @@ body{
     background-color: hsl(24, 87%, 94%);
     color: #B98E2E;
     font-weight: 600;
+    transition: 0.2s;
+}
+
+.change:hover{
+     background-color: #B98E2E;
+    color:hsl(24, 87%, 94%) ;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px #997526;
 }
