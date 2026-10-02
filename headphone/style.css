@@ -18,14 +18,15 @@ body{
 }
 
 .links{
-    margin-left: 550px;
+    margin-left: auto;
+    margin-right: 30px;
 }
 
 
 .links a{
     padding-left: 50px;
     text-decoration: none;
-    color: #B98E2E;
+    color: black;
     font-weight: bold;
 }
 
