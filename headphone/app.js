@@ -22,6 +22,9 @@ function greet(){
 }    
 
 
+
+// <-----------chapter 53--------->
+
 function swapPic(imgId,source){
     let image1 = document.getElementById(imgId);
     image1.src=source;
