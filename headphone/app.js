@@ -20,3 +20,9 @@ function greet(){
 
      
 }    
+
+
+function swapPic(imgId){
+    let image1 = document.getElementById(imgId);
+    image1.src="images/zero.webp";
+}
