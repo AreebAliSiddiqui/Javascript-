@@ -22,7 +22,8 @@ function greet(){
 }    
 
 
-function swapPic(imgId){
+function swapPic(imgId,source){
     let image1 = document.getElementById(imgId);
-    image1.src="images/zero.webp";
+    image1.src=source;
+    
 }
