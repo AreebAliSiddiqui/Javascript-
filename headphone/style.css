@@ -17,6 +17,18 @@ body{
     height: 60px;
 }
 
+.links{
+    margin-left: 550px;
+}
+
+
+.links a{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #B98E2E;
+    font-weight: bold;
+}
+
 .main-head{
    margin-left: 30px;
    font-weight: bold;
