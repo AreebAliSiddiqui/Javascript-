@@ -14,6 +14,7 @@ function previousProduct(){
     let price =document.getElementById("price").innerHTML ="1500 PKR";
 } 
 
+
 function greet(){
     let username = document.getElementById("username").value;
     let para = document.getElementById("para1").innerHTML= "Hello, " + username;
