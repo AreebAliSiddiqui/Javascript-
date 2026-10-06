@@ -23,7 +23,6 @@ function greet(){
 }    
 
 
-
 // <-----------chapter 53--------->
 
 function swapPic(imgId,source){
