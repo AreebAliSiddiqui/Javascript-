@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphone</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar">
         <h1 class="main-head">Sound</h1>
@@ -18,67 +20,69 @@
             <a href="#">About</a>
         </div>
     </nav>
-    
+
     <section class="main">
         <div class="image">
-           <button class="arrow1" onclick="previousProduct()">←</button>
+            <button class="arrow1" onclick="previousProduct()">←</button>
             <img src="images/headphone.jpg" alt="headphone" id="image">
-           <button class="arrow2" onclick="changeProduct()">→</button>
+            <button class="arrow2" onclick="changeProduct()">→</button>
         </div>
         <div class="description">
-          <h1 class="name" id="name">Sonic Pro X</h1>
-          <h2 class="type" id="type">Wireless Headphones</h2>
-          <p class="details" id="details">Premium sound & comfort.</p>
-          <h2 class="price" id="price">1500 PKR</h2>
-          <div class="buttons"> 
-          <button class="buy">Buy Now</button>
-          <button class="change" onclick="changeProduct()">Change Product</button>
-          </div>
-          </div>
+            <h1 class="name" id="name">Sonic Pro X</h1>
+            <h2 class="type" id="type">Wireless Headphones</h2>
+            <p class="details" id="details">Premium sound & comfort.</p>
+            <h2 class="price" id="price">1500 PKR</h2>
+            <div class="buttons">
+                <button class="buy">Buy Now</button>
+                <button class="change" onclick="changeProduct()">Change Product</button>
+            </div>
         </div>
+        </div>
+
         <div class="userinfo">
             <label for="username" class="label">Username</label>
             <input type="text" id="username">
             <button id="submit" onclick="greet()">Submit</button>
             <div class="cover">
-            <p id="para1">Hello,there</p>
-            <p id="para2">Thank you for shopping!</p>
-            </div>          
+                <p id="para1">Hello,there</p>
+                <p id="para2">Thank you for shopping!</p>
+            </div>
         </div>
-  
+
     </section>
 
     <div class="products">
         <div class="center-head">
-        <h1 class="best">Our Best</h1>
-        <h1 class="best1">Product</h1>
+            <h1 class="best">Our Best</h1>
+            <h1 class="best1">Product</h1>
         </div>
         <div class="headphone">
             <div class="image0">
-              <div class="bundle">
-                <img src="images/headphone.jpg" alt="headphone" id="product1"><br>
-          <button class="changeimg" onclick="swapPic('product1','images/zero.webp')" >Change Image</button>
+                <div class="bundle">
+                    <img src="images/headphone.jpg" alt="headphone" id="product1"><br>
+                    <button class="changeimg" onclick="swapPic('product1','images/zero.webp')">Change Image</button>
                 </div>
             </div>
-            
+
             <div class="image0">
                 <div class="bundle">
-                <img src="images/soundcore.webp" alt="headphone" id="product2"><br>
-          <button class="changeimg" onclick="swapPic('product2','images/sound.webp')" >Change Image</button>
-            </div>
+                    <img src="images/soundcore.webp" alt="headphone" id="product2"><br>
+                    <button class="changeimg" onclick="swapPic('product2','images/sound.webp')">Change Image</button>
+                </div>
             </div>
 
             <div class="image0">
                 <div class="bundle">
-                <img src="images/audio.webp" alt="headphone" id="product3"><br>
-          <button class="changeimg" onclick="swapPic('product3','images/audio1.webp')" >Change Image</button>
-            </div>
+                    <img src="images/audio.webp" alt="headphone" id="product3"><br>
+                    <button class="changeimg" onclick="swapPic('product3','images/audio1.webp')">Change Image</button>
+                </div>
             </div>
 
-          
+
         </div>
     </div>
 
     <script src="app.js"></script>
 </body>
+
 </html>
