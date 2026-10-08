@@ -12,3 +12,14 @@ function defaultImg(){
     let image = document.getElementById("page");
     image.className = "page";
 }
+
+function color(){
+    let note = document.getElementById("notice");
+    let para = note.getElementsByTagName("p");
+    for (let i = 0; i < para.length; i++){
+        para[i].style.color = "blue";
+    }
+    
+    
+
+}

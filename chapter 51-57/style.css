@@ -94,9 +94,14 @@ transform: translateY(-3px);
     padding: 20px;
     border-radius: 10px;
     border: 1px solid gray;
+    
 }
 
 p{
     margin-bottom: 15px;
     
+}
+
+.highlight{
+    color: aqua;
 }
