@@ -59,3 +59,27 @@ li{
 box-shadow: 0 10px 15px rgb(187, 165, 136);
 transform: translateY(-3px);
 }
+
+.page{
+    width: 450px;
+    margin-left: 40px;
+    margin-top: 20px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.style{
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 20px;
+    opacity: 1;
+    border-radius: 10px;
+    border: 1px solid gray;
+    transition: 0.3s;
+
+}
+
+.style:hover{
+    box-shadow: 0 10px 15px rgb(126, 41, 41);
+    transform: translateY(-2px);
+}
