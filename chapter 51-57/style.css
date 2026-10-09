@@ -102,6 +102,61 @@ p{
     
 }
 
-.highlight{
-    color: aqua;
+#btn1{
+     padding: 5px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: bisque;
+    transition: 0.3s;
+
+}
+
+#btn1:hover{
+    box-shadow: 0 10px 15px rgb(167, 138, 104);
+    transform: translateY(-3px);
+    background-color: rgb(245, 197, 139);
+}
+
+.container{
+    display: flex;
+}
+
+#rules,#course{
+    width: 250px;
+    height: 150px;
+    background-color: antiquewhite;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+   
+}
+
+.btn2,.btn3{
+     padding: 5px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: bisque;
+    transition: 0.3s;
+
+}
+
+.btn3:hover{
+    box-shadow: 0 10px 15px rgb(167, 138, 104);
+    transform: translateY(-3px);
+    background-color: rgb(245, 197, 139);
+}
+
+
+.btn2:hover{
+    box-shadow: 0 10px 15px rgb(167, 138, 104);
+    transform: translateY(-3px);
+    background-color: rgb(245, 197, 139);
+}
+.btn3{
+    margin-left: 215px;
 }
