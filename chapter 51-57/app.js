@@ -36,3 +36,11 @@ function high(){
     }
 }
 
+function high1(){
+    let rules = document.getElementById("course");
+    let para = rules.getElementsByTagName("p");
+    for (let i = 0; i < para.length; i++){
+        para[i].style.color="red";
+
+    }
+}
