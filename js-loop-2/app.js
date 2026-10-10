@@ -52,7 +52,7 @@ for (let i = 0; i < marks.length; i++){
     }
 }
 
-
+ 
 // 5) Reverse Loop
 // Use a for loop to print numbers from 10 down to 1.
 
