@@ -123,7 +123,7 @@ p{
 }
 
 #rules,#course{
-    width: 250px;
+    width: 250px; 
     height: 150px;
     background-color: antiquewhite; 
     margin-left: 40px;
