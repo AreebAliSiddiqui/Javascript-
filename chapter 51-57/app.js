@@ -19,7 +19,7 @@ function color(){
     for (let i = 0; i < para.length; i++){
         para[i].style.color = "blue";
         console.log(para[i].innerHTML)
-    }
+    } 
     
     
     

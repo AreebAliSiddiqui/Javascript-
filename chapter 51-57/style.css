@@ -125,7 +125,7 @@ p{
 #rules,#course{
     width: 250px;
     height: 150px;
-    background-color: antiquewhite;
+    background-color: antiquewhite; 
     margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 30px;
