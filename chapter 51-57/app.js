@@ -20,7 +20,7 @@ function color(){
         para[i].style.color = "blue";
         console.log(para[i].innerHTML)
     } 
-    
+     
     
     
 
