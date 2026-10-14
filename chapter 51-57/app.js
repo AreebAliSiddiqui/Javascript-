@@ -34,7 +34,7 @@ function high(){
     for (let i = 0; i < para.length; i++){
         para[i].style.color="blue";
  
-    }
+    } 
 }
 
 function high1(){
