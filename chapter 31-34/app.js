@@ -16,7 +16,7 @@
 // let activeYear = new Date();
 // console.log(activeYear.getFullYear());
 // console.log(typeof activeYear.getFullYear());
-
+ 
 
 // Question 3
 // Create a variable named activeMonth.
