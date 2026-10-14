@@ -33,7 +33,7 @@ function high(){
     para[1].innerHTML = "Be Humble"; 
     for (let i = 0; i < para.length; i++){
         para[i].style.color="blue";
-
+ 
     }
 }
 
