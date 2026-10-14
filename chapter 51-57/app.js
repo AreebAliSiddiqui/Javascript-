@@ -25,7 +25,7 @@ function color(){
     
 
 }
-
+ 
 function high(){
     let rules = document.getElementById("rules");
     let para = rules.getElementsByTagName("p"); 
