@@ -20,7 +20,7 @@
 
 // Question 3
 // Create a variable named activeMonth.
-// Print only the current month.
+// Print only the current month. 
 
 // let activeMonth = new Date();
 // console.log(activeMonth.getMonth());
