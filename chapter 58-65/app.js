@@ -34,7 +34,7 @@
 
 
 let pic = document.getElementById("picture");
-pic.addEventListener("mouseover",function(){
+pic.addEventListener("mouseover",function(){ 
     pic.src="images/areeb1.jpg"
 }) 
 
