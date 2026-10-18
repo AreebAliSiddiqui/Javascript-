@@ -33,6 +33,11 @@
 // checkNodes()
 
 
+// let image = document.getElementById("picture");
+// image.getAttribute("alt");
+// image.setAttribute("alt","this is my pic")
+
+
 let pic = document.getElementById("picture");
 pic.addEventListener("mouseover",function(){ 
     pic.src="images/areeb1.jpg"
