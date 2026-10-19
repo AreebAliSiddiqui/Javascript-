@@ -39,3 +39,31 @@ btn2.addEventListener('click',function (){
     }
     number.innerHTML = generate; 
 }) 
+
+
+let btn3 =document.getElementById("btn2");
+btn3.addEventListener('click',function (){
+    let marks =document.getElementById("marks").value;
+    let result =document.getElementById("checker"); 
+    if(marks >= 80){
+       console.log("Excellent, PASS");
+       result.innerHTML = "Check Result: Excellent, PASS"; 
+       
+    }else if(marks >= 70){
+        console.log("Good, PASS");
+       result.innerHTML = "Check Result: Good, PASS";
+
+    }else if(marks >= 60){
+        console.log("Fair, PASS");
+       result.innerHTML = "Check Result: Fair, PASS";
+
+    }else if(marks >= 50){
+        console.log("Need improvement, PASS");
+       result.innerHTML = "Check Result: Need improvement, PASS";
+
+    }else if(marks < 50){
+        console.log("Fail, Focus on your studies");
+        result.innerHTML ="Check Result: Fail, Focus on your studies";
+        
+    }
+})

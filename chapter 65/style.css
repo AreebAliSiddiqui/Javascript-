@@ -14,6 +14,26 @@
     width: 300px;
 }
 
+#quantity{
+     border-radius: 10px;
+    padding: 5px;
+}
+
+#btn{
+     border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.container,.box,.box1{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 600px;
+}
+
 #number{
     padding: 10px;
     background-color: lightgreen;
@@ -30,4 +50,23 @@
     font-weight: bold;
     width: 100px;
     font-size: 15px;
+}
+
+#marks{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#btn2{
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#checker{
+    background-color:lightgreen;
+    border: 1px solid gray;
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
 }
