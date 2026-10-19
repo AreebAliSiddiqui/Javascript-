@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="box">
-        <img src="images/ball1.jpg" alt="Ball">
+        <h1>Question: 1</h1>
+        <img src="images/ball1.jpg" alt="Ball" class="product">
         <h2>Price 500 PKR</h2>
-        <p>If you buy 2000 plus rupees you will have achieved 10% discount.</p>
+        <p>Buy 2000 rupees and get 10% discount.</p>
         <input type="number" id="quantity" placeholder="Enter your Quantity">
         <button id="btn">Submit</button>
         <h3 id="cost">Total price is 0.0!</h3>
 
+    </div><br>
+
+    <div class="container">
+        <h1>Question: 2</h1>
+        <h3>Click the button, it will generate random numbers between 1 to 100.</h3>
+        <h2 id="number">0</h2>
+        <button id="btn1">Generate</button>
     </div>
 
     <script src="app.js"></script>
