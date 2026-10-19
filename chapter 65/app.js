@@ -38,4 +38,4 @@ btn2.addEventListener('click',function (){
         
     }
     number.innerHTML = generate; 
-})
+}) 
