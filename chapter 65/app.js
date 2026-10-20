@@ -51,7 +51,7 @@ btn3.addEventListener('click',function (){
        
     }else if(marks >= 70){
         console.log("Good, PASS");
-       result.innerHTML = "Check Result: Good, PASS";
+       result.innerHTML = "Check Result: Good, PASS"; 
 
     }else if(marks >= 60){
         console.log("Fair, PASS");
