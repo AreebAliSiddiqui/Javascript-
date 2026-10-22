@@ -7,4 +7,4 @@ form.addEventListener('submit',function(event){
     list.textContent = msg;
     parent.appendChild(list);
     form.reset();
-})
+}) 
