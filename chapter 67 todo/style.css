@@ -33,11 +33,20 @@ body {
 /* ===== Heading ===== */
 
 .box h1 {
-    font-size: 27px;
+    font-size: 26px;
     color: #1f2937;
     text-align: center;
-    margin-bottom: 25px;
-    line-height: 1.4;
+    margin-bottom: 10px;
+    /* line-height: 1.4; */
+}
+
+p{
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 30px;
+
+
+
 }
 
 
@@ -46,7 +55,7 @@ body {
 #form {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 05px;
 }
 
 
