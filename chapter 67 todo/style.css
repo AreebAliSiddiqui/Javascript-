@@ -43,7 +43,7 @@ body {
 
 p{
     text-align: center;
-    color: #1f2937;
+    color: #f8fafc;
     margin-bottom: 30px;
 
 
@@ -149,7 +149,7 @@ p{
 
 @media (max-width: 480px) {
     body {
-        padding: 15px;
+        padding: 25px;
         align-items: flex-start;
         padding-top: 60px;
     }
@@ -161,7 +161,11 @@ p{
 
     .box h1 {
         font-size: 23px;
-        margin-bottom: 22px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 15px;
     }
 
     #input,
@@ -185,7 +189,7 @@ p{
 
 @media (max-width: 350px) {
     body {
-        padding: 12px;
+        padding: 22px;
         padding-top: 35px;
     }
 
@@ -195,6 +199,10 @@ p{
 
     .box h1 {
         font-size: 20px;
+    }
+    
+    p{
+      font-size: 13px;
     }
 
     #input,
