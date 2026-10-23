@@ -8,3 +8,9 @@ form.addEventListener('submit',function(event){
     parent.appendChild(list);
     form.reset();
 }) 
+
+let btn1 = document.getElementById("btn1");
+btn1.addEventListener('click',function(){
+    let ul = document.getElementById("ul");
+    ul.removeChild(ul.lastElementChild);
+})

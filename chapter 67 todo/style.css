@@ -83,7 +83,7 @@ p{
 
 /* ===== Add List Button ===== */
 
-#btn {
+#btn,#btn1 {
     width: 100%;
     padding: 14px;
     border: none;
@@ -92,6 +92,7 @@ p{
     color: white;
     font-size: 16px;
     font-weight: bold;
+    margin-bottom: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -105,6 +106,17 @@ p{
 #btn:active {
     transform: scale(0.98);
 }
+
+#btn1:hover {
+    background-color: #7c3aed;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(79, 70, 229, 0.25);
+}
+
+#btn1:active {
+    transform: scale(0.98);
+}
+
 
 
 /* ===== Todo List ===== */
