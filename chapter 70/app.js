@@ -15,3 +15,9 @@ delete students.city;
 console.log(students);
 
 
+// make a dynamic key value
+
+let findAge = "age";
+console.log(students.findAge);
+console.log(students[findAge]);
+
