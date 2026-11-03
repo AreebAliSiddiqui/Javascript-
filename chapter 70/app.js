@@ -21,13 +21,13 @@
 // console.log(students.findAge);
 // console.log(students[findAge]);
 
-let mobile = {
-    model: "samsung",
-    battery: 5000,
-    display: "led",
-    message: function(){
-        console.log(this.battery);
+// let mobile = {
+//     model: "samsung",
+//     battery: 5000,
+//     display: "led",
+//     message: function(){
+//         console.log(this.battery);
         
-    },
-}
-mobile.message();
+//     },
+// }
+// mobile.message();
