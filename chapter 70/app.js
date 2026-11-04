@@ -51,4 +51,5 @@ console.log(mobile);
 
 let screen = "display";
 let price = "cost";
-console.log(mobile.s);
+console.log(mobile[screen]);
+console.log(mobile[price]);
