@@ -31,3 +31,24 @@
 //     },
 // }
 // mobile.message();
+
+
+ let mobile = {
+    model: "samsung",
+    battery: 5000,
+    delivery: 500,    
+    message: function(){
+       mobile.display = "led";
+       mobile.cost = 10000;
+
+       let total = this.delivery + this.cost;
+       console.log(total);
+       
+    },
+}
+mobile.message();
+console.log(mobile);
+
+let screen = "display";
+let price = "cost";
+console.log(mobile.s);
