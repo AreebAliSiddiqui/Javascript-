@@ -46,7 +46,7 @@
        
     },
 }
-mobile.message();
+mobile.message(); 
 console.log(mobile);
 
 let screen = "display";
