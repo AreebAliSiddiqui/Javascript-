@@ -37,7 +37,7 @@
     model: "samsung",
     battery: 5000,
     delivery: 500,    
-    message: function(){
+    message: function(){ 
        mobile.display = "led";
        mobile.cost = 10000;
 
