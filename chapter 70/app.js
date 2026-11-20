@@ -48,7 +48,7 @@
 }
 mobile.message(); 
 console.log(mobile);
-
+  
 let screen = "display"; 
 let price = "cost";
 console.log(mobile[screen]);
